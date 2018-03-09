@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.9.4)  8 MAR 2018 23:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.9.4)  8 MAR 2018 23:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -456,23 +456,29 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 90.
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [3 <./tetris_game.PNG>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
  (./Game_Writeup.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
-Package rerunfilecheck Info: File `Game_Writeup.out' has not changed.
-(rerunfilecheck)             Checksum: 8124B6C849D072A9A62BB6A72F105C56;659.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 
+
+Package rerunfilecheck Warning: File `Game_Writeup.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Game_Writeup.out':
+(rerunfilecheck)             Before: 8124B6C849D072A9A62BB6A72F105C56;659
+(rerunfilecheck)             After:  28B739658BB0196839A0E5337185900D;719.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 7049 strings out of 493013
- 99349 string characters out of 6136994
+ 7050 strings out of 493013
+ 99358 string characters out of 6136994
  202451 words of memory out of 5000000
  10497 multiletter control sequences out of 15000+600000
  7025 words of font info for 28 fonts, out of 8000000 for 9000
@@ -486,10 +492,10 @@ ype1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
 .pfb>
-Output written on Game_Writeup.pdf (4 pages, 517227 bytes).
+Output written on Game_Writeup.pdf (4 pages, 518170 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
+ 22 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

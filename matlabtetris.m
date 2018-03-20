@@ -47,6 +47,11 @@ global right;
 global turn;
 global sb;
 global emg_figure;
+global RMS1;
+global RMS2;
+
+RMS1 = [];
+RMS2 = [];
 
 try
     rng('shuffle');  % So each game is not the same! RNG is new in r2011a.
@@ -297,6 +302,8 @@ end
                 stop_tet;  % Stop the timer, set the callbacks
                 set([S.fig,S.pbt],'keypressfcn',@fig_kpfcn2)
                 set(S.pbt,'string','Continue')
+                save('RMS1.mat', 'RMS1');
+                save('RMS2.mat', 'RMS2');
             case 'Continue'
                 set(S.pbt,'string','Pause')
                 start_tet;  % Restart the timer.
@@ -354,6 +361,8 @@ end
 
         
          [left, right, turn] = emg_control(double(emg_1), double(emg_2));
+         RMS1(end+1) = rms(double(emg_1));
+         RMS2(end+1) = rms(double(emg_2));
          figure(emg_figure);
          hold on;
          if left == 1
@@ -503,6 +512,7 @@ end
             case 'p'
                 pbt_call;  % This will set to pause. Next set new ...
                 set([S.fig,S.pbt],'keypressfcn',@fig_kpfcn2)% Keypressfcn 
+                
             case 'n'
                 quit_check;  % User might want to quit the game.
              otherwise

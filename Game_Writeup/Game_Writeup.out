@@ -1,11 +1,14 @@
-\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Software Setup}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Installation on Windows}{section.2}% 3
-\BOOKMARK [3][-]{subsubsection.2.1.1}{Install Python}{subsection.2.1}% 4
-\BOOKMARK [3][-]{subsubsection.2.1.2}{Install pip}{subsection.2.1}% 5
-\BOOKMARK [3][-]{subsubsection.2.1.3}{Install hidapi}{subsection.2.1}% 6
-\BOOKMARK [2][-]{subsection.2.2}{Download Myoelectric Tetris}{section.2}% 7
-\BOOKMARK [1][-]{section.3}{Implementing Myoelectric Control}{}% 8
-\BOOKMARK [2][-]{subsection.3.1}{RMS Classification}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.2}{EMG Window Size}{section.3}% 10
-\BOOKMARK [1][-]{section.4}{Other Biosignal Controls}{}% 11
+\BOOKMARK [1][-]{section.1}{Myoelectric Control}{}% 1
+\BOOKMARK [1][-]{section.2}{Condition EMG Data, Accuracy and Precision}{}% 2
+\BOOKMARK [1][-]{section.3}{Myoelectric Tetris Setup}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Software Setup}{section.3}% 4
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Installation on Windows}{subsection.3.1}% 5
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Install Python}{subsection.3.1}% 6
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Install pip}{subsection.3.1}% 7
+\BOOKMARK [3][-]{subsubsection.3.1.4}{Install hidapi}{subsection.3.1}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Download Myoelectric Tetris}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Implementing Myoelectric Control}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{RMS Classification}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.2}{EMG Window Size}{section.4}% 12
+\BOOKMARK [1][-]{section.5}{EOG and its use for Computer Cursor Control}{}% 13
+\BOOKMARK [1][-]{section.6}{General Topics for Discussion}{}% 14
